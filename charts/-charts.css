@@ -1,0 +1,17 @@
+.chart-container{
+    border-style:solid;
+    border-width:1px;
+    border-radius:3px;
+    border-color:steelblue;
+    margin:2px;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+#main-container{
+    margin-top:10px;
+}

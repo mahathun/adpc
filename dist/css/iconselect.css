@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 28, 2013, 7:09:35 AM
+    Author     : bugraozden
+*/
+
+.icon-select{
+    width:0px;
+ }
+
+ .icon-select .selected-box { /*white top box*/
+
+     position: relative;
+     margin: 0px;
+     padding: 0px;
+     width: 220px; /* sil */
+     height: 17px; /* sil */
+     border: 1px solid #999999;
+	 background-color: #FFFFFF;
+
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     border-radius: 3px;
+
+ }
+
+ .icon-select .selected-box:hover { /*white top box*/
+
+     position: relative;
+     margin: 0px;
+     padding: 0px;
+     width: 220px; /* sil */
+     height: 17px; /* sil */
+     border: 1px solid #000000;
+     background-color: #FFFFFF;
+
+    
+
+ }
+
+ .icon-select .selected-icon {
+
+     position: absolute;
+     margin: 0px;
+     padding: 0px;
+     top:-4px;
+     left:0px;
+     width: 208px; /* sil */
+     height: 17px; /* sil */
+
+     
+
+ }
+
+ .icon-select .component-icon{
+     position: absolute;
+     bottom:1px;
+     right:4px;
+ }
+
+ .icon-select .box {/*options contain box*/
+
+     position: absolute;
+     top:17px;
+     left:-1px;
+     margin: 0px;
+     padding: 0px;
+     width: 209px; /* sil */
+     height: 100px; /* sil */
+    
+
+      
+     
+     overflow:auto;
+     /*
+     -webkit-overflow-scrolling: touch;
+     */
+
+ }
+
+ .icon-select .icon {
+     position: relative;
+     margin: 0px 0px 0px 0px;
+     padding: 0px;
+	 top:-5px;
+     width: 207px; /* sil */
+     height: 17px; /* sil */
+	 border: 0px solid #FFFFFF;
+   
+ }
+
+ .icon-select .icon:hover {
+     border: 0px solid #000000;
+ }
+
+ .icon-select .icon.selected {
+     position: relative;
+     margin: 0px 0px 0px 0px;
+     padding: 0px;
+     width: 207px; /* sil */
+     height: 17px; /* sil */
+     
+ }
